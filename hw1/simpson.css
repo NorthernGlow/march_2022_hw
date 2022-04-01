@@ -1,0 +1,30 @@
+h1 {
+    background: coral;
+    color: black;
+}
+h2 {
+    background: #fec356;
+
+}
+a {
+    color: #6b6b6b;
+}
+p {
+    background: silver;
+    color: darkviolet;
+    text-align: justify;
+}
+ul {
+    background: #ffddb6;
+    color: #ff0068;
+}
+li {
+    background: blanchedalmond;
+    color: hotpink;
+}
+img{
+    width: 400px;
+}
+body{
+    background: cornflowerblue;
+}
