@@ -1,0 +1,90 @@
+body {
+    margin: 0;
+}
+
+.body-box {
+    width: 910px;
+    height: 600px;
+    background: cornflowerblue;
+    display: flex;
+    justify-content: space-around;
+}
+
+.bloc {
+    height: 500px;
+    width: calc(100% / 2 - 40px);
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.mini-bloc {
+    height: calc(100% / 3 - 20px);
+    width: 100%;
+    background: white;
+    display: flex;
+    justify-content: space-around;
+    border-radius: 3%;
+}
+
+.data {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.name {
+    color: saddlebrown;
+    margin-top: 15px;
+}
+
+.description{
+    color: #6b6b6b;
+    font-size: 14px;
+    line-height: 1.5em;
+    font-family: Arial, sans-serif;
+    margin-bottom: 15px;
+}
+
+.fa-laptop-code {
+    display: block;
+    color: silver;
+    font-size: 50px;
+    margin: 50px 20px 0;
+}
+
+.fa-terminal {
+    display: block;
+    color: silver;
+    font-size: 50px;
+    margin: 50px 20px 0;
+}
+
+.fa-user-secret {
+    display: block;
+    color: silver;
+    font-size: 50px;
+    margin: 50px 20px 0;
+}
+
+.fa-css3 {
+    display: block;
+    color: silver;
+    font-size: 50px;
+    margin: 50px 20px 0;
+}
+
+.fa-book {
+    display: block;
+    color: silver;
+    font-size: 50px;
+    margin: 50px 20px 0;
+}
+
+.fa-masks-theater {
+    display: block;
+    color: silver;
+    font-size: 50px;
+    margin: 50px 20px 0;
+}

@@ -1,0 +1,50 @@
+body{
+    margin: 0;
+}
+.body-box{
+    background: #faf1f1;
+    width: 645px;
+    height: 350px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.element {
+    height: 300px;
+    width: calc(100% / 3 - 20px);
+    border: 3px solid #aba9a9;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.name {
+    text-align: center;
+    display: block;
+    color: black;
+    font-size: 20px;
+    font-family: Constantia, sans-serif ;
+    margin-top: 60px;
+}
+
+.description {
+    text-align: center;
+    display: block;
+    color: #aba9a9;
+    font-size: 18px;
+    line-height: 1.5em;
+    font-family: Constantia, sans-serif ;
+    margin-top: 20px;
+}
+
+.bottom {
+    text-align: center;
+    display: block;
+    color: black;
+    border: 2px solid black;
+    font-size: 20px;
+    font-family: Constantia, sans-serif ;
+    margin-top: 30px;
+    margin-left: 40px;
+    margin-right: 40px;
+}
