@@ -1,0 +1,42 @@
+body {
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.box-1 {
+    width: 600px;
+    height: 200px;
+    background: darkblue;
+    position: relative;
+}
+
+.box-2 {
+    width: 600px;
+    height: 200px;
+    background: #aba9a9;
+    position: relative;
+}
+
+.square {
+    width: 100px;
+    height: 100px;
+    background: blueviolet;
+    position: absolute;
+}
+
+.box-2 > .square:nth-child(1) {
+    top: -50px;
+    left: 100px;
+}
+
+.box-2 > .square:nth-child(2) {
+    top: -50px;
+    left: 250px;
+}
+
+.box-2 > .square:nth-child(3) {
+    top: -50px;
+    right: 100px;
+}

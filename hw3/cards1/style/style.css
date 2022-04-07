@@ -1,0 +1,79 @@
+body {
+    margin: 0;
+    display: flex;
+    justify-content: center;
+}
+.body-box {
+    width: 1000px;
+    height: 500px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.circle {
+    width: 100px;
+    height: 100px;
+    background: white;
+    box-sizing: border-box;
+    border: 1.5px solid gray;
+    border-radius: 50%;
+    position: absolute;
+    top: -50px;
+    left: calc(100% / 2 - 50px);
+}
+
+.fa-laptop,.fa-compass, .fa-wine-glass {
+    width: 100px;
+    height: 100px;
+    color: #fec356;
+    font-size: 40px;
+    box-sizing: border-box;
+    padding: 25px;
+    text-align: center;
+}
+
+.card {
+    width: calc(100% / 3 - 100px);
+    height: 300px;
+    box-sizing: border-box;
+    border: 1.5px solid silver;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.name{
+    width: 100%;
+    font-family: Arial, sans-serif;
+    font-size: 20px;
+    margin-top: 100px;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: center;
+    font-weight: 600;
+}
+
+.txt{
+    width: 100%;
+    font-family: Arial, sans-serif;
+    font-size: 17px;
+    line-height: 1.5em;
+    color: #6b6b6b;
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+.bottom{
+    height: 35px;
+    font-family: Arial, sans-serif;
+    font-size: 19px;
+    color: #000;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid silver;
+    margin: 10px 20px;
+}
