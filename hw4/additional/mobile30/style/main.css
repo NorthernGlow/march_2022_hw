@@ -1,0 +1,170 @@
+.container{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    column-gap: 5px;
+    row-gap: 5px;
+}
+
+.head {
+    width: 100%;
+    height: 100px;
+    display: flex;
+    column-gap: 5px;
+    row-gap: 5px;
+}
+
+.one{
+    width: 25%;
+    height: 100px;
+    background: salmon;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 40px;
+}
+
+.two{
+    width: 75%;
+    height: 100px;
+    background: seagreen;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 40px;
+}
+
+.center {
+    width: 100%;
+    display: flex;
+    column-gap: 5px;
+    row-gap: 5px;
+}
+
+.left {
+    width: 25%;
+    display: flex;
+    flex-direction: column;
+    column-gap: 5px;
+    row-gap: 5px;
+}
+
+.three {
+    width: 100%;
+    height: 400px;
+    background: rosybrown;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 40px;
+}
+
+.wrap{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    column-gap: 5px;
+    row-gap: 5px;
+}
+
+.eight{
+    width: 100%;
+    height: 100px;
+    background: aquamarine;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 40px;
+}
+
+.nine{
+    width: 100%;
+    height: 100px;
+    background: #aba9a9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 40px;
+}
+.right {
+    width: 75%;
+    display: flex;
+    flex-direction: column;
+    column-gap: 5px;
+    row-gap: 5px;
+}
+
+
+.box-1{
+    width: 100%;
+    height: 200px;
+    display: flex;
+    column-gap: 5px;
+    row-gap: 5px;
+
+}
+
+.four {
+    width: 100%;
+    height: 200px;
+    background: aqua;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 40px;
+}
+
+.five{
+    width: 100%;
+    height: 200px;
+    background: #fec356;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 40px;
+}
+
+.box-2{
+    width: 100%;
+    height: 400px;
+    display: flex;
+    column-gap: 5px;
+    row-gap: 5px;
+}
+
+.six {
+    width: 100%;
+    height: 405px;
+    background: cornflowerblue;
+    display: flex;
+    column-gap: 5px;
+    row-gap: 5px;
+    justify-content: center;
+    align-items: center;
+    font-size: 40px;
+}
+
+.seven{
+    width: 100%;
+    height: 405px;
+    background: chocolate;
+    display: flex;
+    column-gap: 5px;
+    row-gap: 5px;
+    justify-content: center;
+    align-items: center;
+    font-size: 40px;
+}
+
+.ten {
+    width: 100%;
+    height: 100px;
+    background: sandybrown;
+    display: flex;
+    column-gap: 5px;
+    row-gap: 5px;
+    justify-content: center;
+    align-items: center;
+    font-size: 40px;
+
+}

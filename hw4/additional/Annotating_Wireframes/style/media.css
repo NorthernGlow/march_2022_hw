@@ -1,0 +1,139 @@
+@media screen and (min-width: 1000px) and (max-width: 1300px) {
+    .two {
+        display: none;
+    }
+
+    .box {
+        width: 100%;
+    }
+
+    .four {
+        flex-wrap: wrap;
+        height: 550px;
+    }
+
+    .four-box {
+        width: calc(100% / 2 - 100px);
+        height: 220px;
+    }
+
+    .mini-box {
+        flex-direction: column;
+        height: 1000px;
+    }
+
+    .five {
+        width: 100%;
+    }
+
+    .five-box1 {
+        height: 100%;
+    }
+
+    .five-box2 {
+        display: none;
+        height: 0;
+    }
+
+    .five-box1-element {
+        width: calc(100% / 2 - 100px);
+        height: calc(100% / 3 - 20px);
+    }
+
+    .six {
+        width: 100%;
+        flex-direction: row;
+    }
+
+    .six-box-first {
+        height: 100%;
+        justify-content: space-around;
+    }
+
+    .six-box {
+        width: 90%;
+    }
+
+    .six-box-last {
+        width: 90%;
+        height: calc(100% - 40px);
+        margin-right: 20px;
+    }
+}
+
+@media screen and (max-width: 1000px) {
+    .one {
+        flex-direction: column;
+    }
+
+    .one-box1 {
+        height: 60px;
+        margin-top: 5px;
+    }
+
+    .one-box2 {
+        width: 95%;
+        height: 60px;
+        margin: 5px 10px;
+    }
+
+    .two {
+        display: none;
+    }
+
+    .box {
+        width: 100%;
+    }
+
+    .four {
+        flex-wrap: wrap;
+        height: 550px;
+    }
+
+    .four-box {
+        width: calc(100% / 2 - 100px);
+        height: 220px;
+    }
+
+    .mini-box {
+        flex-direction: column;
+        height: 1000px;
+    }
+
+    .five {
+        width: 100%;
+    }
+
+    .five-box1 {
+        height: 100%;
+    }
+
+    .five-box2 {
+        display: none;
+        height: 0;
+    }
+
+    .five-box1-element {
+        width: 90%;
+        height: calc(100% / 6 - 20px);
+    }
+
+    .six {
+        width: 100%;
+    }
+
+    .six-box-first {
+        height: 50%;
+        justify-content: space-around;
+    }
+
+    .six-box {
+        width: 90%;
+    }
+
+    .six-box-last {
+        width: 90%;
+        height: 50%;
+        margin-right: 20px;
+    }
+}

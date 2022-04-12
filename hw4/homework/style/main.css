@@ -1,0 +1,144 @@
+.container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    column-gap: 5px;
+    row-gap: 5px;
+}
+
+.a {
+    width: 100%;
+    height: 200px;
+    background: salmon;
+    box-sizing: border-box;
+    border: 1.5px solid black;
+    border-radius: 10px;
+    font-size: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.inbox {
+    width: 100%;
+    height: 500px;
+    display: flex;
+    column-gap: 5px;
+    row-gap: 5px;
+}
+
+.wrap {
+    width: 75%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    column-gap: 5px;
+    row-gap: 5px;
+}
+
+.bcd {
+    width: 100%;
+    height: 50%;
+    display: flex;
+    column-gap: 5px;
+    row-gap: 5px;
+}
+
+.b {
+    width: 33.3%;
+    height: 100%;
+    background: salmon;
+    box-sizing: border-box;
+    border: 1.5px solid black;
+    border-radius: 10px;
+    font-size: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.c {
+    width: 33.3%;
+    height: 100%;
+    background: salmon;
+    box-sizing: border-box;
+    border: 1.5px solid black;
+    border-radius: 10px;
+    font-size: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.d {
+    width: 33.3%;
+    height: 100%;
+    background: salmon;
+    box-sizing: border-box;
+    border: 1.5px solid black;
+    border-radius: 10px;
+    font-size: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.efg {
+    width: 100%;
+    height: 50%;
+    display: flex;
+    column-gap: 5px;
+    row-gap: 5px;
+}
+
+.e {
+    width: 33.3%;
+    height: 100%;
+    background: salmon;
+    box-sizing: border-box;
+    border: 1.5px solid black;
+    border-radius: 10px;
+    font-size: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.f {
+    width: 33.3%;
+    height: 100%;
+    background: salmon;
+    box-sizing: border-box;
+    border: 1.5px solid black;
+    border-radius: 10px;
+    font-size: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.g {
+    width: 33.3%;
+    height: 100%;
+    background: salmon;
+    box-sizing: border-box;
+    border: 1.5px solid black;
+    border-radius: 10px;
+    font-size: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.h {
+    width: 25%;
+    height: 100%;
+    background: salmon;
+    box-sizing: border-box;
+    border: 1.5px solid black;
+    border-radius: 10px;
+    font-size: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
