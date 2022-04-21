@@ -1,0 +1,33 @@
+/* tasks3_additional/add3.html */
+.wrap {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.post-card {
+    width: calc(100% / 5 - 20px);
+    margin: 10px 10px;
+}
+
+/* tasks3_additional/additional 2.html */
+.users-box {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    background: #eed7d7;
+}
+
+.user-block {
+    width: calc(100% / 2 - 100px);
+    margin: 10px 10px;
+    padding: 10px 20px;
+    background: white;
+    overflow: hidden;
+}
+
+.address-block {
+    width: 90%;
+    margin-left: 50px;
+}
