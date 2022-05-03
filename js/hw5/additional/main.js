@@ -106,7 +106,6 @@
 // }
 // foo([1, 5, 7, 5,-7], 3);
 
-//????????????????????????????????????????????????????????????????????????????????????????????????7
 // - Сворити функцію яка буде переносити елементи з значенням 0 у кінець маисву. Зберігаючи при цьому порядок не нульових значень.
 // Двожина масиву від 2 до 100
 // EXAMPLE:
@@ -115,15 +114,19 @@
 // [0,0,1,0]   => [1,0,0,0]
 //
 // let func = (array) => {
-//     for (let i = 0; i < array.length; i++) {
-//         if (array[i] === 0) {
-//             for (let j = i; j < array.length; j++) {
-//                 array[j] = array[j + 1];
-//             }
-//             array[array.length - 1] = 0;
+//     let arr = [];
+//     let zero = 0;
+//     for (const arrayElement of array) {
+//         if (arrayElement !== 0) {
+//             arr.push(arrayElement);
+//         } else {
+//             zero += 1;
 //         }
 //     }
-//     console.log(array);
+//     for (let i = 0; i < zero; i++) {
+//         arr.push(0);
+//     }
+//     console.log(arr);
 // }
 // func([1, 0, 6, 0, 3]);
 // func([0, 1, 2, 3, 4]);
