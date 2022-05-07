@@ -84,8 +84,12 @@
 //
 // {
 //     cardSuit: '', // 'spade', 'diamond','heart', 'clubs'
-//         value: '', // '6'-'10', 'ace','jack','queen','king','joker'
-//     color:'', // 'red','black'
+//         value
+// :
+//     '', // '6'-'10', 'ace','jack','queen','king','joker'
+//         color
+// :
+//     '', // 'red','black'
 // }
 //
 // let cards = [{
@@ -125,10 +129,6 @@
 //     value: 'ace',
 //     color: 'black'
 // }, {
-//     cardSuit: 'spade',
-//     value: 'joker',
-//     color: 'black'
-// }, {
 //     cardSuit: 'clubs',
 //     value: '6',
 //     color: 'black'
@@ -163,10 +163,6 @@
 // }, {
 //     cardSuit: 'clubs',
 //     value: 'ace',
-//     color: 'black'
-// }, {
-//     cardSuit: 'clubs',
-//     value: 'joker',
 //     color: 'black'
 // }, {
 //     cardSuit: 'diamond',
@@ -245,7 +241,9 @@
 //     value: 'ace',
 //     color: 'red'
 // }, {
-//     cardSuit: 'heart',
+//     value: 'joker',
+//     color: 'black'
+// }, {
 //     value: 'joker',
 //     color: 'red'
 // }];
