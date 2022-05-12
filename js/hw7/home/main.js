@@ -11,13 +11,13 @@
 //     this.phone = phone;
 // }
 //
-// let Users = [];
+// let users = [];
 // for (let i = 0; i < 10; i++) {
-//     Users[i] = new User(Math.round(Math.random() * 25), 'Liza', 'Mozar', 'liza@gmail.com', '0654422115');
+//     users[i] = new User(Math.round(Math.random() * 25), 'Liza', 'Mozar', 'liza@gmail.com', '0654422115');
 // }
-// console.log(Users);
-// console.log(Users.filter(value => value.id % 2 === 0));
-// console.log(Users.sort((a, b) => a.id - b.id));
+// console.log(users);
+// console.log(users.filter(value => value.id % 2 === 0));
+// console.log(users.sort((a, b) => a.id - b.id));
 
 // - створити класс для об'єктів Client з полями id, name, surname , email, phone, order (поле є масивом зі списком товарів)
 // створити пустий масив, наповнити його 10 об'єктами Client
