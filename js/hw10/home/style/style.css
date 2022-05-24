@@ -1,0 +1,20 @@
+#text{
+    width: 200px;
+    height: 200px;
+    background: #fec356;
+    margin: 5px;
+}
+
+.line{
+    margin: 7px 0;
+    display: flex;
+}
+
+.column{
+    height: 100px;
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+}
