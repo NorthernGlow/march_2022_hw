@@ -35,9 +35,9 @@
 //     const name = form1.name.value;
 //     const surname = form1.surname.value;
 //     const age = form2.age.value;
-//     const gender = form2.email.value;
+//     const email = form2.email.value;
 //
-//     console.log(`Info with form1\nName: ${name}\nSurname: ${surname}\nInfo with form2\nAge: ${age}\nEmail: ${gender}`);
+//     console.log(`Info with form1\nName: ${name}\nSurname: ${surname}\nInfo with form2\nAge: ${age}\nEmail: ${email}`);
 //
 //     form1.name.value = '';
 //     form1.surname.value = '';
