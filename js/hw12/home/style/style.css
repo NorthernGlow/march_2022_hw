@@ -1,0 +1,19 @@
+#posts {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.post {
+    width: calc((100% / 5) - 10px);
+    margin-bottom: 10px;
+    border: 1px solid black;
+    padding: 5px;
+    box-sizing: border-box;
+}
+
+.comment{
+    margin: 10px 0;
+}
+
