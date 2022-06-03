@@ -1,0 +1,52 @@
+/*user-details.html - блок с информацией про user вверху страницы. Кнопка ниже, на 90% ширины страницы, по центру.*/
+/*блоки с краткой информацией про post - в ряд по 5 объектов.*/
+/*Все без исключения элементы, который характеризируют user,post,comment  визуализировать, так, что бы было видно их блоки (дать задний фон + margin. Иными словами - крайне четкая сетка)*/
+
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.userInfo {
+    background: #eed7d7;
+    margin: 5px;
+    padding: 5px;
+    box-sizing: border-box;
+}
+
+.buttonPosts {
+    width: 90%;
+    margin: 0 5%;
+    font-size: 20px;
+}
+
+.posts {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.postTitle {
+    width: calc((100% / 5) - 10px);
+    margin: 5px;
+    padding: 5px;
+    box-sizing: border-box;
+    background: salmon;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: space-between;
+    overflow: hidden;
+}
+
+
+.buttonElementInfo {
+    height: 40px;
+    width: calc(80%);
+    margin: 5px 10%;
+    border-radius: 5px;
+}
+
+
